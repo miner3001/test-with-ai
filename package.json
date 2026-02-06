@@ -1,0 +1,20 @@
+{
+  "name": "test-taiko",
+  "version": "1.0.0",
+  "description": "Playwright tests for Taiko Mantis Hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "keywords": ["playwright", "test", "taiko"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1"
+  },
+  "dependencies": {}
+}

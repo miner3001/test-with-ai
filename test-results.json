@@ -1,0 +1,1428 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\playwright.config.js",
+    "rootDir": "C:/Users/mihne/Documents/Scuola/test-with-ai/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 600000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/mihne/Documents/Scuola/test-with-ai/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/mihne/Documents/Scuola/test-with-ai/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/mihne/Documents/Scuola/test-with-ai/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/mihne/Documents/Scuola/test-with-ai/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/mihne/Documents/Scuola/test-with-ai/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/mihne/Documents/Scuola/test-with-ai/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "create-issue.spec.js",
+      "file": "create-issue.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Taiko MantisHub - Issue Creation Tests",
+          "file": "create-issue.spec.js",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "001 - Login and Navigate to Create Issue Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9153,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 001: Login and Navigate to Create Issue ===\n"
+                        },
+                        {
+                          "text": "Step 1: Navigating to login page...\n"
+                        },
+                        {
+                          "text": "✅ Login page loaded\n"
+                        },
+                        {
+                          "text": "Step 2: Entering username...\n"
+                        },
+                        {
+                          "text": "✅ Username entered: administrator\n"
+                        },
+                        {
+                          "text": "Step 3: Clicking submit button...\n"
+                        },
+                        {
+                          "text": "Step 4: Entering password...\n"
+                        },
+                        {
+                          "text": "✅ Password entered\n"
+                        },
+                        {
+                          "text": "Step 5: Submitting login form...\n"
+                        },
+                        {
+                          "text": "Step 6: Waiting for dashboard...\n"
+                        },
+                        {
+                          "text": "✅ Dashboard URL: https://taiko.mantishub.io/app/projects/0/issues\n"
+                        },
+                        {
+                          "text": "Step 7: Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📍 Current URL: https://taiko.mantishub.io/app/projects/0/issues/create\n"
+                        },
+                        {
+                          "text": "✅ Successfully navigated to create issue page\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:30.786Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-67a0f5e58ffacd4e7523",
+              "file": "create-issue.spec.js",
+              "line": 10,
+              "column": 3
+            },
+            {
+              "title": "002 - Verify Create Issue Form Elements",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7110,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 002: Verify Create Issue Form ===\n"
+                        },
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Login complete\n"
+                        },
+                        {
+                          "text": "Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📋 Checking for form elements...\n"
+                        },
+                        {
+                          "text": "Looking for submit button...\n"
+                        },
+                        {
+                          "text": "Found 2 potential submit buttons\n"
+                        },
+                        {
+                          "text": "✅ Create issue form has elements (0 fields found)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:40.117Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-05dca304651b1617234b",
+              "file": "create-issue.spec.js",
+              "line": 66,
+              "column": 3
+            },
+            {
+              "title": "003 - Create Issue Form Interaction",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7135,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 003: Create Issue Form Interaction ===\n"
+                        },
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Login complete\n"
+                        },
+                        {
+                          "text": "Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📝 Testing form interaction...\n"
+                        },
+                        {
+                          "text": "Found summary field, filling test data...\n"
+                        },
+                        {
+                          "text": "✅ Summary filled\n"
+                        },
+                        {
+                          "text": "Found description field using: textarea\n"
+                        },
+                        {
+                          "text": "✅ Description filled\n"
+                        },
+                        {
+                          "text": "Found 0 select elements\n"
+                        },
+                        {
+                          "text": "✅ Form interaction test complete\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:47.254Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-bd93f53ac8aa62d88471",
+              "file": "create-issue.spec.js",
+              "line": 137,
+              "column": 3
+            },
+            {
+              "title": "004 - Page Load and Response Check",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9183,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 004: Page Load and Response Check ===\n"
+                        },
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Login complete\n"
+                        },
+                        {
+                          "text": "Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📊 Total network requests: 46\n"
+                        },
+                        {
+                          "text": "✅ Successful responses (200): 46\n"
+                        },
+                        {
+                          "text": "✅ No error responses (4xx/5xx)\n"
+                        },
+                        {
+                          "text": "Page title: \"Create Issue - MantisHub\"\n"
+                        },
+                        {
+                          "text": "✅ Test complete\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:54.416Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-5281f34a6efd1599b36d",
+              "file": "create-issue.spec.js",
+              "line": 223,
+              "column": 3
+            },
+            {
+              "title": "005 - Console Errors Check",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 6999,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m\n    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js:337:34",
+                        "location": {
+                          "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js",
+                          "column": 34,
+                          "line": 337
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 335 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`🔴 Console errors: ${consoleErrors.length}`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 336 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 337 |\u001b[39m     expect(consoleErrors\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 338 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'✅ No critical console errors'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 339 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 340 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js",
+                            "column": 34,
+                            "line": 337
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m\n\n\u001b[0m \u001b[90m 335 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`🔴 Console errors: ${consoleErrors.length}`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 336 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 337 |\u001b[39m     expect(consoleErrors\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 338 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'✅ No critical console errors'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 339 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 340 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js:337:34\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 005: Console Errors Check ===\n"
+                        },
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Login complete\n"
+                        },
+                        {
+                          "text": "Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "🔴 Console Error: Connecting to 'https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6250h2v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770366127608&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=2020937223.1770366126&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~115938465~115938469~116185181~116185182~116988315&sid=1770366125&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2F&dr=https%3A%2F%2Ftaiko.mantishub.io%2Flogin_password_page.php&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=683' violates the following Content Security Policy directive: \"connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://js.chargify.com https://www.google.com http://localhost/ https://*.mantishub.io\". The action has been blocked.\n"
+                        },
+                        {
+                          "text": "🔴 Console Error: Fetch API cannot load https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6250h2v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770366127608&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=2020937223.1770366126&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~115938465~115938469~116185181~116185182~116988315&sid=1770366125&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2F&dr=https%3A%2F%2Ftaiko.mantishub.io%2Flogin_password_page.php&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=683. Refused to connect because it violates the document's Content Security Policy.\n"
+                        },
+                        {
+                          "text": "🔴 Console Error: Connecting to 'https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6250h2v9201537819za20gzb9201489572zd9201489572&_p=1770366127608&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=2020937223.1770366126&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~115938465~115938469~116185181~116185182~116988315&sid=1770366125&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2F&dr=https%3A%2F%2Ftaiko.mantishub.io%2Flogin_password_page.php&dt=MantisHub&en=scroll&ep.instance_info_param=taiko(mantis-client)&epn.percent_scrolled=90&_et=3&tfd=757' violates the following Content Security Policy directive: \"connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://js.chargify.com https://www.google.com http://localhost/ https://*.mantishub.io\". The action has been blocked.\n"
+                        },
+                        {
+                          "text": "🔴 Console Error: Fetch API cannot load https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6250h2v9201537819za20gzb9201489572zd9201489572&_p=1770366127608&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=2020937223.1770366126&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~115938465~115938469~116185181~116185182~116988315&sid=1770366125&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2F&dr=https%3A%2F%2Ftaiko.mantishub.io%2Flogin_password_page.php&dt=MantisHub&en=scroll&ep.instance_info_param=taiko(mantis-client)&epn.percent_scrolled=90&_et=3&tfd=757. Refused to connect because it violates the document's Content Security Policy.\n"
+                        },
+                        {
+                          "text": "🔴 Console Error: Connecting to 'https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6250h2v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770366127732&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=2020937223.1770366126&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115938465~115938468~116185181~116185182~116988315&sid=1770366125&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2Fprojects%2F0%2Fissues%2Fcreate&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=162' violates the following Content Security Policy directive: \"connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://js.chargify.com https://www.google.com http://localhost/ https://*.mantishub.io\". The action has been blocked.\n"
+                        },
+                        {
+                          "text": "🔴 Console Error: Fetch API cannot load https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6250h2v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770366127732&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=2020937223.1770366126&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115938465~115938468~116185181~116185182~116988315&sid=1770366125&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2Fprojects%2F0%2Fissues%2Fcreate&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=162. Refused to connect because it violates the document's Content Security Policy.\n"
+                        },
+                        {
+                          "text": "📊 Console messages total: 6\n"
+                        },
+                        {
+                          "text": "🔴 Console errors: 6\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:22:03.619Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\create-issue-Taiko-MantisH-41970--005---Console-Errors-Check-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\create-issue-Taiko-MantisH-41970--005---Console-Errors-Check-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\create-issue-Taiko-MantisH-41970--005---Console-Errors-Check-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js",
+                        "column": 34,
+                        "line": 337
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-2bbd569da3c6db2a090a",
+              "file": "create-issue.spec.js",
+              "line": 289,
+              "column": 3
+            },
+            {
+              "title": "006 - Full Create Issue Workflow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7972,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 006: Full Create Issue Workflow ===\n"
+                        },
+                        {
+                          "text": "Step 1: Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Logged in successfully\n"
+                        },
+                        {
+                          "text": "Step 2: Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📍 Current URL: https://taiko.mantishub.io/app/projects/0/issues/create\n"
+                        },
+                        {
+                          "text": "Step 3: Filling form...\n"
+                        },
+                        {
+                          "text": "✅ Summary: Test Issue 1770366142790\n"
+                        },
+                        {
+                          "text": "✅ Description: Auto-generated test issue for verification\n"
+                        },
+                        {
+                          "text": "Step 4: Form ready for submission\n"
+                        },
+                        {
+                          "text": "✅ Workflow test complete\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:22:14.530Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-42619c0da12977dc84bb",
+              "file": "create-issue.spec.js",
+              "line": 341,
+              "column": 3
+            },
+            {
+              "title": "001 - Login and Navigate to Create Issue Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11689,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 001: Login and Navigate to Create Issue ===\n"
+                        },
+                        {
+                          "text": "Step 1: Navigating to login page...\n"
+                        },
+                        {
+                          "text": "✅ Login page loaded\n"
+                        },
+                        {
+                          "text": "Step 2: Entering username...\n"
+                        },
+                        {
+                          "text": "✅ Username entered: administrator\n"
+                        },
+                        {
+                          "text": "Step 3: Clicking submit button...\n"
+                        },
+                        {
+                          "text": "Step 4: Entering password...\n"
+                        },
+                        {
+                          "text": "✅ Password entered\n"
+                        },
+                        {
+                          "text": "Step 5: Submitting login form...\n"
+                        },
+                        {
+                          "text": "Step 6: Waiting for dashboard...\n"
+                        },
+                        {
+                          "text": "✅ Dashboard URL: https://taiko.mantishub.io/app/projects/0/issues\n"
+                        },
+                        {
+                          "text": "Step 7: Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📍 Current URL: https://taiko.mantishub.io/app/projects/0/issues/create\n"
+                        },
+                        {
+                          "text": "✅ Successfully navigated to create issue page\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:22:25.509Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-2243591298d97b7eb2f9",
+              "file": "create-issue.spec.js",
+              "line": 10,
+              "column": 3
+            },
+            {
+              "title": "002 - Verify Create Issue Form Elements",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7936,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 002: Verify Create Issue Form ===\n"
+                        },
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Login complete\n"
+                        },
+                        {
+                          "text": "Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📋 Checking for form elements...\n"
+                        },
+                        {
+                          "text": "Looking for submit button...\n"
+                        },
+                        {
+                          "text": "Found 2 potential submit buttons\n"
+                        },
+                        {
+                          "text": "✅ Create issue form has elements (0 fields found)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:22:37.964Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-3eacb2f9a93608c92e22",
+              "file": "create-issue.spec.js",
+              "line": 66,
+              "column": 3
+            },
+            {
+              "title": "003 - Create Issue Form Interaction",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7205,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 003: Create Issue Form Interaction ===\n"
+                        },
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Login complete\n"
+                        },
+                        {
+                          "text": "Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📝 Testing form interaction...\n"
+                        },
+                        {
+                          "text": "Found summary field, filling test data...\n"
+                        },
+                        {
+                          "text": "✅ Summary filled\n"
+                        },
+                        {
+                          "text": "Found description field using: textarea\n"
+                        },
+                        {
+                          "text": "✅ Description filled\n"
+                        },
+                        {
+                          "text": "Found 0 select elements\n"
+                        },
+                        {
+                          "text": "✅ Form interaction test complete\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:22:45.918Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-858896f67963d58de2fd",
+              "file": "create-issue.spec.js",
+              "line": 137,
+              "column": 3
+            },
+            {
+              "title": "004 - Page Load and Response Check",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8013,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 004: Page Load and Response Check ===\n"
+                        },
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Login complete\n"
+                        },
+                        {
+                          "text": "Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📊 Total network requests: 46\n"
+                        },
+                        {
+                          "text": "✅ Successful responses (200): 44\n"
+                        },
+                        {
+                          "text": "✅ No error responses (4xx/5xx)\n"
+                        },
+                        {
+                          "text": "Page title: \"Create Issue - MantisHub\"\n"
+                        },
+                        {
+                          "text": "✅ Test complete\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:22:53.142Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-e652c28f885f62cecfee",
+              "file": "create-issue.spec.js",
+              "line": 223,
+              "column": 3
+            },
+            {
+              "title": "005 - Console Errors Check",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8481,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 005: Console Errors Check ===\n"
+                        },
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"downloadable font: Glyph bbox was incorrect (glyph ids 33 55 62 81 82 83 84 87 88 89 90 112 119 120 123 139 159 162 164 166 178 184 185 217 218 272 273 274 275 279 281 284 290 291 292 309 310 319 321 323 326 329 330 331 332 333 334 339 341 347 349 351 352 353 354 357 358 361 366 367 370 371 414 431 436 444 445 458 460 464 465 483 505 508 511 514 516 517 518 520 521 538 539 546 568 574 579 580 585 586 594 596 599 602 603 616 618 622 627 629 630 633 634 638 643 645 651 654 665 675 685 686 688 691) (font-family: \"FontAwesome\" style:normal weight:400 stretch:100 src index:1) source: https://taiko.mantishub.io/fonts/fontawesome-webfont.woff2?v=4.7.0\"]\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"The value of the attribute “expires” for the cookie “_ga_K48BWVQQV1” has been overwritten.\" {file: \"https://taiko.mantishub.io/login_page.php\" line: 0}]\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"The value of the attribute “expires” for the cookie “_ga_K48BWVQQV1” has been overwritten.\" {file: \"https://taiko.mantishub.io/login_page.php\" line: 0}]\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"The value of the attribute “expires” for the cookie “_ga_K48BWVQQV1” has been overwritten.\" {file: \"https://taiko.mantishub.io/login_page.php\" line: 0}]\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"The value of the attribute “expires” for the cookie “_ga_K48BWVQQV1” has been overwritten.\" {file: \"https://taiko.mantishub.io/login_page.php\" line: 0}]\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"The value of the attribute “expires” for the cookie “_ga_K48BWVQQV1” has been overwritten.\" {file: \"https://taiko.mantishub.io/login_password_page.php\" line: 0}]\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"The value of the attribute “expires” for the cookie “_ga_K48BWVQQV1” has been overwritten.\" {file: \"https://taiko.mantishub.io/login_password_page.php\" line: 0}]\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"The value of the attribute “expires” for the cookie “_ga_K48BWVQQV1” has been overwritten.\" {file: \"https://taiko.mantishub.io/login_password_page.php\" line: 0}]\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"The value of the attribute “expires” for the cookie “_ga_K48BWVQQV1” has been overwritten.\" {file: \"https://taiko.mantishub.io/login_password_page.php\" line: 0}]\n"
+                        },
+                        {
+                          "text": "✅ Login complete\n"
+                        },
+                        {
+                          "text": "Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content.\" {file: \"https://taiko.mantishub.io/app/\" line: 0}]\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"Loading failed for the module with source “https://taiko.mantishub.io/app/assets/index-7c0bf6c3.js”.\" {file: \"https://taiko.mantishub.io/app/\" line: 77}]\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"Loading failed for the <script> with source “https://www.googletagmanager.com/gtm.js?id=GTM-MJ4GHFPS”.\" {file: \"https://taiko.mantishub.io/app/\" line: 1}]\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"The value of the attribute “expires” for the cookie “_ga_K48BWVQQV1” has been overwritten.\" {file: \"https://taiko.mantishub.io/app/projects/0/issues/create\" line: 0}]\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content.\" {file: \"https://www.googletagmanager.com/gtag/js?id=G-K48BWVQQV1&cx=c&gtm=4e6241\" line: 804}]\n"
+                        },
+                        {
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"The value of the attribute “expires” for the cookie “_ga_K48BWVQQV1” has been overwritten.\" {file: \"https://taiko.mantishub.io/app/projects/0/issues/create\" line: 0}]\n"
+                        },
+                        {
+                          "text": "📊 Console messages total: 15\n"
+                        },
+                        {
+                          "text": "🔴 Console errors: 0\n"
+                        },
+                        {
+                          "text": "✅ No critical console errors\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:23:01.181Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-21b162373046e8db9259",
+              "file": "create-issue.spec.js",
+              "line": 289,
+              "column": 3
+            },
+            {
+              "title": "006 - Full Create Issue Workflow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9425,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 006: Full Create Issue Workflow ===\n"
+                        },
+                        {
+                          "text": "Step 1: Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Logged in successfully\n"
+                        },
+                        {
+                          "text": "Step 2: Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📍 Current URL: https://taiko.mantishub.io/app/projects/0/issues/create\n"
+                        },
+                        {
+                          "text": "Step 3: Filling form...\n"
+                        },
+                        {
+                          "text": "✅ Summary: Test Issue 1770366198567\n"
+                        },
+                        {
+                          "text": "✅ Description: Auto-generated test issue for verification\n"
+                        },
+                        {
+                          "text": "Step 4: Form ready for submission\n"
+                        },
+                        {
+                          "text": "✅ Workflow test complete\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:23:09.699Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-fb1a8365b4b2579c4b5b",
+              "file": "create-issue.spec.js",
+              "line": 341,
+              "column": 3
+            },
+            {
+              "title": "001 - Login and Navigate to Create Issue Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10468,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 001: Login and Navigate to Create Issue ===\n"
+                        },
+                        {
+                          "text": "Step 1: Navigating to login page...\n"
+                        },
+                        {
+                          "text": "✅ Login page loaded\n"
+                        },
+                        {
+                          "text": "Step 2: Entering username...\n"
+                        },
+                        {
+                          "text": "✅ Username entered: administrator\n"
+                        },
+                        {
+                          "text": "Step 3: Clicking submit button...\n"
+                        },
+                        {
+                          "text": "Step 4: Entering password...\n"
+                        },
+                        {
+                          "text": "✅ Password entered\n"
+                        },
+                        {
+                          "text": "Step 5: Submitting login form...\n"
+                        },
+                        {
+                          "text": "Step 6: Waiting for dashboard...\n"
+                        },
+                        {
+                          "text": "✅ Dashboard URL: https://taiko.mantishub.io/app/projects/0/issues\n"
+                        },
+                        {
+                          "text": "Step 7: Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📍 Current URL: https://taiko.mantishub.io/app/projects/0/issues/create\n"
+                        },
+                        {
+                          "text": "✅ Successfully navigated to create issue page\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:23:23.161Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-552931055250b660f129",
+              "file": "create-issue.spec.js",
+              "line": 10,
+              "column": 3
+            },
+            {
+              "title": "002 - Verify Create Issue Form Elements",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8966,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 002: Verify Create Issue Form ===\n"
+                        },
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Login complete\n"
+                        },
+                        {
+                          "text": "Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📋 Checking for form elements...\n"
+                        },
+                        {
+                          "text": "Looking for submit button...\n"
+                        },
+                        {
+                          "text": "Found 2 potential submit buttons\n"
+                        },
+                        {
+                          "text": "✅ Create issue form has elements (0 fields found)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:23:33.745Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-3b6f89c997bda9c87a59",
+              "file": "create-issue.spec.js",
+              "line": 66,
+              "column": 3
+            },
+            {
+              "title": "003 - Create Issue Form Interaction",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9252,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 003: Create Issue Form Interaction ===\n"
+                        },
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Login complete\n"
+                        },
+                        {
+                          "text": "Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📝 Testing form interaction...\n"
+                        },
+                        {
+                          "text": "Found summary field, filling test data...\n"
+                        },
+                        {
+                          "text": "✅ Summary filled\n"
+                        },
+                        {
+                          "text": "Found description field using: textarea\n"
+                        },
+                        {
+                          "text": "✅ Description filled\n"
+                        },
+                        {
+                          "text": "Found 0 select elements\n"
+                        },
+                        {
+                          "text": "✅ Form interaction test complete\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:23:42.739Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-16092510c108cc389b40",
+              "file": "create-issue.spec.js",
+              "line": 137,
+              "column": 3
+            },
+            {
+              "title": "004 - Page Load and Response Check",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8812,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 004: Page Load and Response Check ===\n"
+                        },
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Login complete\n"
+                        },
+                        {
+                          "text": "Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📊 Total network requests: 50\n"
+                        },
+                        {
+                          "text": "✅ Successful responses (200): 50\n"
+                        },
+                        {
+                          "text": "✅ No error responses (4xx/5xx)\n"
+                        },
+                        {
+                          "text": "Page title: \"Create Issue - MantisHub\"\n"
+                        },
+                        {
+                          "text": "✅ Test complete\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:23:52.021Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-99a71cfe9bb068d98982",
+              "file": "create-issue.spec.js",
+              "line": 223,
+              "column": 3
+            },
+            {
+              "title": "005 - Console Errors Check",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 8971,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js:337:34",
+                        "location": {
+                          "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js",
+                          "column": 34,
+                          "line": 337
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 335 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`🔴 Console errors: ${consoleErrors.length}`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 336 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 337 |\u001b[39m     expect(consoleErrors\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 338 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'✅ No critical console errors'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 339 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 340 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js",
+                            "column": 34,
+                            "line": 337
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n\n\u001b[0m \u001b[90m 335 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`🔴 Console errors: ${consoleErrors.length}`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 336 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 337 |\u001b[39m     expect(consoleErrors\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 338 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'✅ No critical console errors'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 339 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 340 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js:337:34\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 005: Console Errors Check ===\n"
+                        },
+                        {
+                          "text": "Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Login complete\n"
+                        },
+                        {
+                          "text": "Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "🔴 Console Error: Refused to connect to https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6241v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770366246240&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=1729593258.1770366243&ul=en-us&sr=1280x720&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115938465~115938468~116185181~116185182~116988315&sid=1770366242&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2Fprojects%2F0%2Fissues%2Fcreate&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=1835 because it does not appear in the connect-src directive of the Content Security Policy.\n"
+                        },
+                        {
+                          "text": "📊 Console messages total: 1\n"
+                        },
+                        {
+                          "text": "🔴 Console errors: 1\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:24:00.857Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\create-issue-Taiko-MantisH-41970--005---Console-Errors-Check-webkit\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\create-issue-Taiko-MantisH-41970--005---Console-Errors-Check-webkit\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\create-issue-Taiko-MantisH-41970--005---Console-Errors-Check-webkit\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js",
+                        "column": 34,
+                        "line": 337
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-057048239d19ff4b637f",
+              "file": "create-issue.spec.js",
+              "line": 289,
+              "column": 3
+            },
+            {
+              "title": "006 - Full Create Issue Workflow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11420,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 006: Full Create Issue Workflow ===\n"
+                        },
+                        {
+                          "text": "Step 1: Logging in...\n"
+                        },
+                        {
+                          "text": "✅ Logged in successfully\n"
+                        },
+                        {
+                          "text": "Step 2: Navigating to create issue page...\n"
+                        },
+                        {
+                          "text": "📍 Current URL: https://taiko.mantishub.io/app/projects/0/issues/create\n"
+                        },
+                        {
+                          "text": "Step 3: Filling form...\n"
+                        },
+                        {
+                          "text": "✅ Summary: Test Issue 1770366262105\n"
+                        },
+                        {
+                          "text": "✅ Description: Auto-generated test issue for verification\n"
+                        },
+                        {
+                          "text": "Step 4: Form ready for submission\n"
+                        },
+                        {
+                          "text": "✅ Workflow test complete\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:24:12.163Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3ec6e1f14503cb9003b4-8ec06c84788cb4fddf77",
+              "file": "create-issue.spec.js",
+              "line": 341,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-02-06T08:21:26.663Z",
+    "duration": 177150.457,
+    "expected": 16,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}
