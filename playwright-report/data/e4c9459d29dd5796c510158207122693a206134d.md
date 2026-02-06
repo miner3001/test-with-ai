@@ -1,0 +1,160 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "MantisHub" [ref=e7] [cursor=pointer]:
+        - /url: /app/projects/1/issues
+      - generic [ref=e9]:
+        - 'combobox "Search: (Ctrl + K)" [ref=e10]'
+        - status
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - button "Switch to dark theme" [ref=e13] [cursor=pointer]:
+            - img [ref=e14]
+          - generic [ref=e16] [cursor=pointer]:
+            - combobox "MyProject" [ref=e17]
+            - img [ref=e19]
+        - img [ref=e22] [cursor=pointer]
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - button [ref=e26] [cursor=pointer]:
+        - img [ref=e27]
+      - generic [ref=e30]:
+        - link "Dashboard" [ref=e31] [cursor=pointer]:
+          - /url: /app/projects/1/dashboard
+          - img [ref=e32]
+          - paragraph [ref=e34]: Dashboard
+        - link "Issues" [ref=e35] [cursor=pointer]:
+          - /url: /app/projects/1/issues
+          - img [ref=e36]
+          - paragraph [ref=e38]: Issues
+        - link "Create Issue" [ref=e39] [cursor=pointer]:
+          - /url: /app/projects/1/issues/create
+          - img [ref=e40]
+          - paragraph [ref=e42]: Create Issue
+        - link "Change Log" [ref=e43] [cursor=pointer]:
+          - /url: /app/projects/1/changelog
+          - img [ref=e44]
+          - paragraph [ref=e46]: Change Log
+        - link "Roadmap" [ref=e47] [cursor=pointer]:
+          - /url: /app/projects/1/roadmap
+          - img [ref=e48]
+          - paragraph [ref=e50]: Roadmap
+        - link "Manage" [ref=e51] [cursor=pointer]:
+          - /url: /app/manage/
+          - img [ref=e52]
+          - paragraph [ref=e54]: Manage
+        - link "Wiki" [ref=e55] [cursor=pointer]:
+          - /url: /app/projects/1/pages/home/page-view
+          - img [ref=e56]
+          - paragraph [ref=e58]: Wiki
+        - link "Classic UI" [ref=e59] [cursor=pointer]:
+          - /url: https://taiko.mantishub.io/set_project.php?project_id=1
+          - img [ref=e60]
+          - paragraph [ref=e62]: Classic UI
+    - main [ref=e63]:
+      - generic [ref=e64]:
+        - navigation [ref=e65]:
+          - list [ref=e66]:
+            - listitem [ref=e67]:
+              - link [ref=e68] [cursor=pointer]:
+                - /url: /app/
+                - img [ref=e69]
+            - listitem [ref=e71]:
+              - button "MyProject" [ref=e72] [cursor=pointer]
+            - listitem [ref=e73]:
+              - img [ref=e74]
+            - listitem [ref=e76]: Create Issue
+        - generic [ref=e77]:
+          - button "Create Issue" [ref=e80]
+          - region [ref=e81]:
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e85]:
+                  - generic [ref=e86]: "*Summary"
+                  - textbox "*Summary" [ref=e87]
+                - generic [ref=e88]:
+                  - generic [ref=e89]: "*Description"
+                  - generic [ref=e92]:
+                    - generic:
+                      - generic [ref=e93]: Directory navigation
+                      - generic [ref=e94]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - list
+                    - generic [ref=e97]:
+                      - generic [ref=e98]:
+                        - list [ref=e100]:
+                          - listitem [ref=e101] [cursor=pointer]: 
+                          - listitem
+                          - listitem [ref=e102] [cursor=pointer]:
+                            - text: H
+                            - generic [ref=e103]: 
+                          - listitem [ref=e104] [cursor=pointer]: 
+                          - listitem [ref=e105] [cursor=pointer]: 
+                          - listitem [ref=e106] [cursor=pointer]: 
+                          - listitem [ref=e107] [cursor=pointer]: 
+                          - listitem
+                          - listitem [ref=e108] [cursor=pointer]: 
+                          - listitem [ref=e109] [cursor=pointer]: 
+                          - listitem [ref=e110] [cursor=pointer]: 
+                          - listitem [ref=e111] [cursor=pointer]: 
+                          - listitem [ref=e112] [cursor=pointer]: 
+                          - listitem
+                          - listitem [ref=e113] [cursor=pointer]: 
+                          - listitem [ref=e114] [cursor=pointer]: 
+                          - listitem [ref=e115] [cursor=pointer]:
+                            - text: 
+                            - generic [ref=e116]: 
+                          - listitem
+                          - listitem [ref=e117] [cursor=pointer]: 
+                          - listitem [ref=e118] [cursor=pointer]: 
+                          - listitem [ref=e119] [cursor=pointer]: 
+                        - list [ref=e121]:
+                          - listitem [ref=e122] [cursor=pointer]: 
+                          - listitem [ref=e123] [cursor=pointer]: 
+                      - textbox [ref=e130]
+                - generic [ref=e133]:
+                  - generic [ref=e134]:
+                    - generic [ref=e135]: Tags
+                    - paragraph [ref=e136]: (Separate by ",")
+                  - generic [ref=e137]:
+                    - listbox [ref=e138]:
+                      - option [ref=e139]:
+                        - combobox [ref=e140]
+                    - status
+                - generic [ref=e141]: "*Category"
+                - generic [ref=e142]:
+                  - generic [ref=e143] [cursor=pointer]:
+                    - combobox "General" [ref=e144]
+                    - img [ref=e146]
+                  - textbox: "1"
+                - generic [ref=e148]: Priority
+                - generic [ref=e150] [cursor=pointer]:
+                  - combobox "normal" [ref=e151]
+                  - img [ref=e153]
+                - generic [ref=e155]: Severity
+                - generic [ref=e157] [cursor=pointer]:
+                  - combobox "minor" [ref=e158]
+                  - img [ref=e160]
+                - generic [ref=e162]: Assign To
+                - generic [ref=e166]:
+                  - listbox [ref=e167]:
+                    - option [ref=e168]:
+                      - combobox [ref=e169]
+                  - status
+                  - img [ref=e171] [cursor=pointer]
+                - generic [ref=e173]: View Status
+                - group [ref=e175]:
+                  - button "public" [pressed] [ref=e176] [cursor=pointer]:
+                    - generic [ref=e178]: public
+                  - button "private" [ref=e179] [cursor=pointer]:
+                    - generic [ref=e181]: private
+                - button "+ Add Files" [ref=e182] [cursor=pointer]
+              - generic [ref=e183]:
+                - button "Create" [ref=e184] [cursor=pointer]
+                - paragraph [ref=e185]: "* required"
+```

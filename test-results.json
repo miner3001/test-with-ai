@@ -126,7 +126,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 9153,
+                      "duration": 8858,
                       "errors": [],
                       "stdout": [
                         {
@@ -174,7 +174,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:21:30.786Z",
+                      "startTime": "2026-02-06T08:16:40.374Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -203,7 +203,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7110,
+                      "duration": 7099,
                       "errors": [],
                       "stdout": [
                         {
@@ -233,7 +233,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:21:40.117Z",
+                      "startTime": "2026-02-06T08:16:49.443Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -262,7 +262,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7135,
+                      "duration": 7127,
                       "errors": [],
                       "stdout": [
                         {
@@ -301,7 +301,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:21:47.254Z",
+                      "startTime": "2026-02-06T08:16:56.565Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -330,7 +330,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 9183,
+                      "duration": 7075,
                       "errors": [],
                       "stdout": [
                         {
@@ -346,10 +346,10 @@
                           "text": "Navigating to create issue page...\n"
                         },
                         {
-                          "text": "📊 Total network requests: 46\n"
+                          "text": "📊 Total network requests: 44\n"
                         },
                         {
-                          "text": "✅ Successful responses (200): 46\n"
+                          "text": "✅ Successful responses (200): 44\n"
                         },
                         {
                           "text": "✅ No error responses (4xx/5xx)\n"
@@ -363,7 +363,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:21:54.416Z",
+                      "startTime": "2026-02-06T08:17:03.712Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -392,7 +392,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 6999,
+                      "duration": 7028,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m\n    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js:337:34",
@@ -427,22 +427,22 @@
                           "text": "Navigating to create issue page...\n"
                         },
                         {
-                          "text": "🔴 Console Error: Connecting to 'https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6250h2v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770366127608&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=2020937223.1770366126&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~115938465~115938469~116185181~116185182~116988315&sid=1770366125&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2F&dr=https%3A%2F%2Ftaiko.mantishub.io%2Flogin_password_page.php&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=683' violates the following Content Security Policy directive: \"connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://js.chargify.com https://www.google.com http://localhost/ https://*.mantishub.io\". The action has been blocked.\n"
+                          "text": "🔴 Console Error: Connecting to 'https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6241v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770365834846&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=415420137.1770365833&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938468~116185181~116185182~116988315&sid=1770365832&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2F&dr=https%3A%2F%2Ftaiko.mantishub.io%2Flogin_password_page.php&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=650' violates the following Content Security Policy directive: \"connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://js.chargify.com https://www.google.com http://localhost/ https://*.mantishub.io\". The action has been blocked.\n"
                         },
                         {
-                          "text": "🔴 Console Error: Fetch API cannot load https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6250h2v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770366127608&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=2020937223.1770366126&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~115938465~115938469~116185181~116185182~116988315&sid=1770366125&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2F&dr=https%3A%2F%2Ftaiko.mantishub.io%2Flogin_password_page.php&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=683. Refused to connect because it violates the document's Content Security Policy.\n"
+                          "text": "🔴 Console Error: Fetch API cannot load https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6241v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770365834846&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=415420137.1770365833&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938468~116185181~116185182~116988315&sid=1770365832&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2F&dr=https%3A%2F%2Ftaiko.mantishub.io%2Flogin_password_page.php&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=650. Refused to connect because it violates the document's Content Security Policy.\n"
                         },
                         {
-                          "text": "🔴 Console Error: Connecting to 'https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6250h2v9201537819za20gzb9201489572zd9201489572&_p=1770366127608&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=2020937223.1770366126&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~115938465~115938469~116185181~116185182~116988315&sid=1770366125&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2F&dr=https%3A%2F%2Ftaiko.mantishub.io%2Flogin_password_page.php&dt=MantisHub&en=scroll&ep.instance_info_param=taiko(mantis-client)&epn.percent_scrolled=90&_et=3&tfd=757' violates the following Content Security Policy directive: \"connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://js.chargify.com https://www.google.com http://localhost/ https://*.mantishub.io\". The action has been blocked.\n"
+                          "text": "🔴 Console Error: Connecting to 'https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6241v9201537819za20gzb9201489572zd9201489572&_p=1770365834846&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=415420137.1770365833&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938468~116185181~116185182~116988315&sid=1770365832&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2F&dr=https%3A%2F%2Ftaiko.mantishub.io%2Flogin_password_page.php&dt=MantisHub&en=scroll&ep.instance_info_param=taiko(mantis-client)&epn.percent_scrolled=90&_et=3&tfd=825' violates the following Content Security Policy directive: \"connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://js.chargify.com https://www.google.com http://localhost/ https://*.mantishub.io\". The action has been blocked.\n"
                         },
                         {
-                          "text": "🔴 Console Error: Fetch API cannot load https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6250h2v9201537819za20gzb9201489572zd9201489572&_p=1770366127608&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=2020937223.1770366126&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~115938465~115938469~116185181~116185182~116988315&sid=1770366125&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2F&dr=https%3A%2F%2Ftaiko.mantishub.io%2Flogin_password_page.php&dt=MantisHub&en=scroll&ep.instance_info_param=taiko(mantis-client)&epn.percent_scrolled=90&_et=3&tfd=757. Refused to connect because it violates the document's Content Security Policy.\n"
+                          "text": "🔴 Console Error: Fetch API cannot load https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6241v9201537819za20gzb9201489572zd9201489572&_p=1770365834846&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=415420137.1770365833&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938468~116185181~116185182~116988315&sid=1770365832&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2F&dr=https%3A%2F%2Ftaiko.mantishub.io%2Flogin_password_page.php&dt=MantisHub&en=scroll&ep.instance_info_param=taiko(mantis-client)&epn.percent_scrolled=90&_et=3&tfd=825. Refused to connect because it violates the document's Content Security Policy.\n"
                         },
                         {
-                          "text": "🔴 Console Error: Connecting to 'https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6250h2v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770366127732&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=2020937223.1770366126&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115938465~115938468~116185181~116185182~116988315&sid=1770366125&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2Fprojects%2F0%2Fissues%2Fcreate&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=162' violates the following Content Security Policy directive: \"connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://js.chargify.com https://www.google.com http://localhost/ https://*.mantishub.io\". The action has been blocked.\n"
+                          "text": "🔴 Console Error: Connecting to 'https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6241v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770365835069&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=415420137.1770365833&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115616985~115938465~115938468~116185181~116185182~116988315&sid=1770365832&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2Fprojects%2F0%2Fissues%2Fcreate&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=268' violates the following Content Security Policy directive: \"connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://js.chargify.com https://www.google.com http://localhost/ https://*.mantishub.io\". The action has been blocked.\n"
                         },
                         {
-                          "text": "🔴 Console Error: Fetch API cannot load https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6250h2v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770366127732&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=2020937223.1770366126&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115938465~115938468~116185181~116185182~116988315&sid=1770366125&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2Fprojects%2F0%2Fissues%2Fcreate&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=162. Refused to connect because it violates the document's Content Security Policy.\n"
+                          "text": "🔴 Console Error: Fetch API cannot load https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6241v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770365835069&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=415420137.1770365833&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115616985~115938465~115938468~116185181~116185182~116988315&sid=1770365832&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2Fprojects%2F0%2Fissues%2Fcreate&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=268. Refused to connect because it violates the document's Content Security Policy.\n"
                         },
                         {
                           "text": "📊 Console messages total: 6\n"
@@ -453,7 +453,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:22:03.619Z",
+                      "startTime": "2026-02-06T08:17:10.813Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -503,7 +503,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7972,
+                      "duration": 8598,
                       "errors": [],
                       "stdout": [
                         {
@@ -525,7 +525,7 @@
                           "text": "Step 3: Filling form...\n"
                         },
                         {
-                          "text": "✅ Summary: Test Issue 1770366142790\n"
+                          "text": "✅ Summary: Test Issue 1770365850568\n"
                         },
                         {
                           "text": "✅ Description: Auto-generated test issue for verification\n"
@@ -539,7 +539,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:22:14.530Z",
+                      "startTime": "2026-02-06T08:17:22.231Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -565,10 +565,10 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11689,
+                      "duration": 12011,
                       "errors": [],
                       "stdout": [
                         {
@@ -616,7 +616,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:22:25.509Z",
+                      "startTime": "2026-02-06T08:19:57.464Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -642,10 +642,10 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7936,
+                      "duration": 7944,
                       "errors": [],
                       "stdout": [
                         {
@@ -675,7 +675,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:22:37.964Z",
+                      "startTime": "2026-02-06T08:20:11.370Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -701,10 +701,10 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7205,
+                      "duration": 8268,
                       "errors": [],
                       "stdout": [
                         {
@@ -729,12 +729,6 @@
                           "text": "✅ Summary filled\n"
                         },
                         {
-                          "text": "Found description field using: textarea\n"
-                        },
-                        {
-                          "text": "✅ Description filled\n"
-                        },
-                        {
                           "text": "Found 0 select elements\n"
                         },
                         {
@@ -743,7 +737,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:22:45.918Z",
+                      "startTime": "2026-02-06T08:20:19.357Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -769,10 +763,10 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8013,
+                      "duration": 7401,
                       "errors": [],
                       "stdout": [
                         {
@@ -805,7 +799,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:22:53.142Z",
+                      "startTime": "2026-02-06T08:20:27.663Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -831,10 +825,10 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8481,
+                      "duration": 7541,
                       "errors": [],
                       "stdout": [
                         {
@@ -889,7 +883,7 @@
                           "text": "🟡 Console Warning: [JavaScript Warning: \"The value of the attribute “expires” for the cookie “_ga_K48BWVQQV1” has been overwritten.\" {file: \"https://taiko.mantishub.io/app/projects/0/issues/create\" line: 0}]\n"
                         },
                         {
-                          "text": "🟡 Console Warning: [JavaScript Warning: \"Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content.\" {file: \"https://www.googletagmanager.com/gtag/js?id=G-K48BWVQQV1&cx=c&gtm=4e6241\" line: 804}]\n"
+                          "text": "🟡 Console Warning: [JavaScript Warning: \"Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content.\" {file: \"https://www.googletagmanager.com/gtag/js?id=G-K48BWVQQV1&cx=c&gtm=4e6241\" line: 803}]\n"
                         },
                         {
                           "text": "🟡 Console Warning: [JavaScript Warning: \"The value of the attribute “expires” for the cookie “_ga_K48BWVQQV1” has been overwritten.\" {file: \"https://taiko.mantishub.io/app/projects/0/issues/create\" line: 0}]\n"
@@ -906,7 +900,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:23:01.181Z",
+                      "startTime": "2026-02-06T08:20:35.094Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -932,10 +926,10 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 9425,
+                      "duration": 9447,
                       "errors": [],
                       "stdout": [
                         {
@@ -957,7 +951,7 @@
                           "text": "Step 3: Filling form...\n"
                         },
                         {
-                          "text": "✅ Summary: Test Issue 1770366198567\n"
+                          "text": "✅ Summary: Test Issue 1770366051655\n"
                         },
                         {
                           "text": "✅ Description: Auto-generated test issue for verification\n"
@@ -971,7 +965,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:23:09.699Z",
+                      "startTime": "2026-02-06T08:20:42.663Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -997,10 +991,10 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 9,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 10468,
+                      "duration": 11122,
                       "errors": [],
                       "stdout": [
                         {
@@ -1048,7 +1042,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:23:23.161Z",
+                      "startTime": "2026-02-06T08:23:31.128Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1063,7 +1057,7 @@
             },
             {
               "title": "002 - Verify Create Issue Form Elements",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -1074,11 +1068,30 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 9,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 8966,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 7517,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"issues/create\"\u001b[39m\nReceived string:    \u001b[31m\"https://taiko.mantishub.io/login_page.php?return=%2Fapp%2Fprojects%2F0%2Fissues%2Fcreate\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"issues/create\"\u001b[39m\nReceived string:    \u001b[31m\"https://taiko.mantishub.io/login_page.php?return=%2Fapp%2Fprojects%2F0%2Fissues%2Fcreate\"\u001b[39m\n    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js:134:24",
+                        "location": {
+                          "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js",
+                          "column": 24,
+                          "line": 134
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 132 |\u001b[39m     }\n \u001b[90m 133 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 134 |\u001b[39m     expect(page\u001b[33m.\u001b[39murl())\u001b[33m.\u001b[39mtoContain(\u001b[32m'issues/create'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 135 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 136 |\u001b[39m\n \u001b[90m 137 |\u001b[39m   test(\u001b[32m'003 - Create Issue Form Interaction'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js",
+                            "column": 24,
+                            "line": 134
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"issues/create\"\u001b[39m\nReceived string:    \u001b[31m\"https://taiko.mantishub.io/login_page.php?return=%2Fapp%2Fprojects%2F0%2Fissues%2Fcreate\"\u001b[39m\n\n\u001b[0m \u001b[90m 132 |\u001b[39m     }\n \u001b[90m 133 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 134 |\u001b[39m     expect(page\u001b[33m.\u001b[39murl())\u001b[33m.\u001b[39mtoContain(\u001b[32m'issues/create'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 135 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 136 |\u001b[39m\n \u001b[90m 137 |\u001b[39m   test(\u001b[32m'003 - Create Issue Form Interaction'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js:134:24\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "\n=== TEST 002: Verify Create Issue Form ===\n"
@@ -1099,20 +1112,36 @@
                           "text": "Looking for submit button...\n"
                         },
                         {
-                          "text": "Found 2 potential submit buttons\n"
+                          "text": "Found 0 potential submit buttons\n"
                         },
                         {
-                          "text": "✅ Create issue form has elements (0 fields found)\n"
+                          "text": "⚠️ Form structure different, but page loaded\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:23:33.745Z",
+                      "startTime": "2026-02-06T08:23:42.357Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\create-issue-Taiko-MantisH-d620b--Create-Issue-Form-Elements-webkit\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\create-issue-Taiko-MantisH-d620b--Create-Issue-Form-Elements-webkit\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js",
+                        "column": 24,
+                        "line": 134
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "3ec6e1f14503cb9003b4-3b6f89c997bda9c87a59",
@@ -1133,10 +1162,10 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 10,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 9252,
+                      "duration": 9903,
                       "errors": [],
                       "stdout": [
                         {
@@ -1175,7 +1204,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:23:42.739Z",
+                      "startTime": "2026-02-06T08:23:52.356Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1201,10 +1230,10 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 10,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8812,
+                      "duration": 8983,
                       "errors": [],
                       "stdout": [
                         {
@@ -1220,10 +1249,10 @@
                           "text": "Navigating to create issue page...\n"
                         },
                         {
-                          "text": "📊 Total network requests: 50\n"
+                          "text": "📊 Total network requests: 46\n"
                         },
                         {
-                          "text": "✅ Successful responses (200): 50\n"
+                          "text": "✅ Successful responses (200): 45\n"
                         },
                         {
                           "text": "✅ No error responses (4xx/5xx)\n"
@@ -1237,7 +1266,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:23:52.021Z",
+                      "startTime": "2026-02-06T08:24:02.378Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1263,10 +1292,10 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 10,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 8971,
+                      "duration": 8634,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\create-issue.spec.js:337:34",
@@ -1301,7 +1330,7 @@
                           "text": "Navigating to create issue page...\n"
                         },
                         {
-                          "text": "🔴 Console Error: Refused to connect to https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6241v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770366246240&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=1729593258.1770366243&ul=en-us&sr=1280x720&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115938465~115938468~116185181~116185182~116988315&sid=1770366242&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2Fprojects%2F0%2Fissues%2Fcreate&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=1835 because it does not appear in the connect-src directive of the Content Security Policy.\n"
+                          "text": "🔴 Console Error: Refused to connect to https://region1.google-analytics.com/g/collect?v=2&tid=G-K48BWVQQV1&gtm=45je6241v9201537819z89201489572za20gzb9201489572zd9201489572&_p=1770366256315&gcd=13l3l3l2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=478353668.1770366253&ul=en-us&sr=1280x720&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~115938465~115938468~116185181~116185182~116988315~117231333&sid=1770366253&sct=1&seg=1&dl=https%3A%2F%2Ftaiko.mantishub.io%2Fapp%2Fprojects%2F0%2Fissues%2Fcreate&dt=MantisHub&en=page_view&ep.instance_info_param=taiko(mantis-client)&tfd=1731 because it does not appear in the connect-src directive of the Content Security Policy.\n"
                         },
                         {
                           "text": "📊 Console messages total: 1\n"
@@ -1312,7 +1341,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:24:00.857Z",
+                      "startTime": "2026-02-06T08:24:11.383Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1359,10 +1388,10 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 11,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11420,
+                      "duration": 10637,
                       "errors": [],
                       "stdout": [
                         {
@@ -1384,7 +1413,7 @@
                           "text": "Step 3: Filling form...\n"
                         },
                         {
-                          "text": "✅ Summary: Test Issue 1770366262105\n"
+                          "text": "✅ Summary: Test Issue 1770366272746\n"
                         },
                         {
                           "text": "✅ Description: Auto-generated test issue for verification\n"
@@ -1398,7 +1427,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-06T08:24:12.163Z",
+                      "startTime": "2026-02-06T08:24:22.651Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1414,15 +1443,2813 @@
           ]
         }
       ]
+    },
+    {
+      "title": "main.spec.js",
+      "file": "main.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Taiko MantisHub Login Tests",
+          "file": "main.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "001 - Successful Login Flow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6290,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== Starting Login Test ===\n"
+                        },
+                        {
+                          "text": "Step 1: Navigating to login page...\n"
+                        },
+                        {
+                          "text": "✅ Page loaded\n"
+                        },
+                        {
+                          "text": "Step 2: Entering username...\n"
+                        },
+                        {
+                          "text": "✅ Username: administrator\n"
+                        },
+                        {
+                          "text": "Step 3: Looking for password field...\n"
+                        },
+                        {
+                          "text": "    Password not visible, clicking submit...\n"
+                        },
+                        {
+                          "text": "Step 4: Entering password...\n"
+                        },
+                        {
+                          "text": "✅ Password entered\n"
+                        },
+                        {
+                          "text": "Step 5: Submitting login...\n"
+                        },
+                        {
+                          "text": "Step 6: Waiting for dashboard...\n"
+                        },
+                        {
+                          "text": "Final URL: https://taiko.mantishub.io/app/\n"
+                        },
+                        {
+                          "text": "✅ Login successful!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:17:31.128Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89836371d14dc78a5411-93e6b12752d3295ac02e",
+              "file": "main.spec.js",
+              "line": 9,
+              "column": 3
+            },
+            {
+              "title": "002 - Dashboard is Accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6774,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== Dashboard Test ===\n"
+                        },
+                        {
+                          "text": "Login required, performing quick login...\n"
+                        },
+                        {
+                          "text": "Page title: View Issues - MantisHub\n"
+                        },
+                        {
+                          "text": "✅ Dashboard accessible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:17:37.457Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89836371d14dc78a5411-5c435f02e39c3f81c88a",
+              "file": "main.spec.js",
+              "line": 64,
+              "column": 3
+            },
+            {
+              "title": "003 - Page Elements Loaded",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2477,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== Page Elements Test ===\n"
+                        },
+                        {
+                          "text": "Found 3 input elements\n"
+                        },
+                        {
+                          "text": "Found 0 button elements\n"
+                        },
+                        {
+                          "text": "✅ Page elements loaded\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:17:44.283Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89836371d14dc78a5411-23d52efe0911c4d09121",
+              "file": "main.spec.js",
+              "line": 99,
+              "column": 3
+            },
+            {
+              "title": "004 - Session Persistence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2602,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== Session Persistence Test ===\n"
+                        },
+                        {
+                          "text": "First URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "After reload: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "✅ Session test passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:17:46.798Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89836371d14dc78a5411-81ddd30504b59cfe447b",
+              "file": "main.spec.js",
+              "line": 116,
+              "column": 3
+            },
+            {
+              "title": "001 - Successful Login Flow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8594,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== Starting Login Test ===\n"
+                        },
+                        {
+                          "text": "Step 1: Navigating to login page...\n"
+                        },
+                        {
+                          "text": "✅ Page loaded\n"
+                        },
+                        {
+                          "text": "Step 2: Entering username...\n"
+                        },
+                        {
+                          "text": "✅ Username: administrator\n"
+                        },
+                        {
+                          "text": "Step 3: Looking for password field...\n"
+                        },
+                        {
+                          "text": "    Password not visible, clicking submit...\n"
+                        },
+                        {
+                          "text": "Step 4: Entering password...\n"
+                        },
+                        {
+                          "text": "✅ Password entered\n"
+                        },
+                        {
+                          "text": "Step 5: Submitting login...\n"
+                        },
+                        {
+                          "text": "Step 6: Waiting for dashboard...\n"
+                        },
+                        {
+                          "text": "Final URL: https://taiko.mantishub.io/app/projects/0/issues\n"
+                        },
+                        {
+                          "text": "✅ Login successful!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:20:52.175Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89836371d14dc78a5411-b097a37eee760e16066a",
+              "file": "main.spec.js",
+              "line": 9,
+              "column": 3
+            },
+            {
+              "title": "002 - Dashboard is Accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8357,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== Dashboard Test ===\n"
+                        },
+                        {
+                          "text": "Login required, performing quick login...\n"
+                        },
+                        {
+                          "text": "Page title: View Issues - MantisHub\n"
+                        },
+                        {
+                          "text": "✅ Dashboard accessible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:00.795Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89836371d14dc78a5411-40a19e76ef3e423d7ed5",
+              "file": "main.spec.js",
+              "line": 64,
+              "column": 3
+            },
+            {
+              "title": "003 - Page Elements Loaded",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2386,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== Page Elements Test ===\n"
+                        },
+                        {
+                          "text": "Found 3 input elements\n"
+                        },
+                        {
+                          "text": "Found 0 button elements\n"
+                        },
+                        {
+                          "text": "✅ Page elements loaded\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:09.181Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89836371d14dc78a5411-9d1fa951dd5a7da4b0f3",
+              "file": "main.spec.js",
+              "line": 99,
+              "column": 3
+            },
+            {
+              "title": "004 - Session Persistence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3039,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== Session Persistence Test ===\n"
+                        },
+                        {
+                          "text": "First URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "After reload: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "✅ Session test passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:11.588Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89836371d14dc78a5411-847873c9cabdfa9099aa",
+              "file": "main.spec.js",
+              "line": 116,
+              "column": 3
+            },
+            {
+              "title": "001 - Successful Login Flow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7277,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== Starting Login Test ===\n"
+                        },
+                        {
+                          "text": "Step 1: Navigating to login page...\n"
+                        },
+                        {
+                          "text": "✅ Page loaded\n"
+                        },
+                        {
+                          "text": "Step 2: Entering username...\n"
+                        },
+                        {
+                          "text": "✅ Username: administrator\n"
+                        },
+                        {
+                          "text": "Step 3: Looking for password field...\n"
+                        },
+                        {
+                          "text": "    Password not visible, clicking submit...\n"
+                        },
+                        {
+                          "text": "Step 4: Entering password...\n"
+                        },
+                        {
+                          "text": "✅ Password entered\n"
+                        },
+                        {
+                          "text": "Step 5: Submitting login...\n"
+                        },
+                        {
+                          "text": "Step 6: Waiting for dashboard...\n"
+                        },
+                        {
+                          "text": "Final URL: https://taiko.mantishub.io/app/projects/0/issues\n"
+                        },
+                        {
+                          "text": "✅ Login successful!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:24:33.442Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89836371d14dc78a5411-13b50119c29a7e9c87ef",
+              "file": "main.spec.js",
+              "line": 9,
+              "column": 3
+            },
+            {
+              "title": "002 - Dashboard is Accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7197,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== Dashboard Test ===\n"
+                        },
+                        {
+                          "text": "Login required, performing quick login...\n"
+                        },
+                        {
+                          "text": "Page title: MantisHub\n"
+                        },
+                        {
+                          "text": "✅ Dashboard accessible\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:24:40.738Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89836371d14dc78a5411-2cac5b4d411dab9f133b",
+              "file": "main.spec.js",
+              "line": 64,
+              "column": 3
+            },
+            {
+              "title": "003 - Page Elements Loaded",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2530,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== Page Elements Test ===\n"
+                        },
+                        {
+                          "text": "Found 3 input elements\n"
+                        },
+                        {
+                          "text": "Found 0 button elements\n"
+                        },
+                        {
+                          "text": "✅ Page elements loaded\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:24:47.960Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89836371d14dc78a5411-f440896e54264c05a212",
+              "file": "main.spec.js",
+              "line": 99,
+              "column": 3
+            },
+            {
+              "title": "004 - Session Persistence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2948,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== Session Persistence Test ===\n"
+                        },
+                        {
+                          "text": "First URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "After reload: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "✅ Session test passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:24:50.510Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "89836371d14dc78a5411-71f6762a80b164bef339",
+              "file": "main.spec.js",
+              "line": 116,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "taiko-2step.spec.js",
+      "file": "taiko-2step.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Taiko MantisHub 2-Step Login Tests",
+          "file": "taiko-2step.spec.js",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-001: Login with username and password step-by-step",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6437,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 1: MantisHub Login (Step-by-Step) ===\n"
+                        },
+                        {
+                          "text": "📍 Navigating to login page...\n"
+                        },
+                        {
+                          "text": "✅ Navigated successfully\n"
+                        },
+                        {
+                          "text": "📝 Step 1: Entering username...\n"
+                        },
+                        {
+                          "text": "✅ Username entered: administrator\n"
+                        },
+                        {
+                          "text": "📝 Step 2: Looking for next action...\n"
+                        },
+                        {
+                          "text": "Password field not visible, looking for submit button...\n"
+                        },
+                        {
+                          "text": "Found continue button, clicking...\n"
+                        },
+                        {
+                          "text": "✅ Password field is now visible\n"
+                        },
+                        {
+                          "text": "📝 Step 3: Entering password...\n"
+                        },
+                        {
+                          "text": "✅ Password entered\n"
+                        },
+                        {
+                          "text": "📝 Step 4: Submitting login form...\n"
+                        },
+                        {
+                          "text": "✅ Login form submitted\n"
+                        },
+                        {
+                          "text": "📍 Current URL after login attempt: https://taiko.mantishub.io/app/projects/0/issues\n"
+                        },
+                        {
+                          "text": "📝 Step 5: Checking for 2-step verification...\n"
+                        },
+                        {
+                          "text": "ℹ️ No 2FA field detected\n"
+                        },
+                        {
+                          "text": "📍 Final URL: https://taiko.mantishub.io/app/projects/0/issues\n"
+                        },
+                        {
+                          "text": "✅ Test completed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:17:49.458Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb77361a7eefd5b46527-b3306f6107e0c763dc82",
+              "file": "taiko-2step.spec.js",
+              "line": 13,
+              "column": 7
+            },
+            {
+              "title": "TC-002: Verify dashboard access",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5822,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 2: Dashboard Verification ===\n"
+                        },
+                        {
+                          "text": "📍 Current URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "Still on login page - attempting login again\n"
+                        },
+                        {
+                          "text": "✅ Final URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "Page title: Login - MantisHub\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:17:55.923Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb77361a7eefd5b46527-81e3a9ac8e0cb2c6d9d0",
+              "file": "taiko-2step.spec.js",
+              "line": 156,
+              "column": 7
+            },
+            {
+              "title": "TC-003: Session persistence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2450,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 3: Session Persistence ===\n"
+                        },
+                        {
+                          "text": "Initial URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "After reload URL: https://taiko.mantishub.io/login_page.php\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:18:01.772Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb77361a7eefd5b46527-c282409e01766768a292",
+              "file": "taiko-2step.spec.js",
+              "line": 194,
+              "column": 7
+            },
+            {
+              "title": "TC-004: Browser automation verification",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2374,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 4: Browser Automation Check ===\n"
+                        },
+                        {
+                          "text": "Login form found: true\n"
+                        },
+                        {
+                          "text": "Input focused successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:18:04.250Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb77361a7eefd5b46527-114ffb7f1cee8acf4665",
+              "file": "taiko-2step.spec.js",
+              "line": 209,
+              "column": 7
+            },
+            {
+              "title": "TC-001: Login with username and password step-by-step",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7256,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 1: MantisHub Login (Step-by-Step) ===\n"
+                        },
+                        {
+                          "text": "📍 Navigating to login page...\n"
+                        },
+                        {
+                          "text": "✅ Navigated successfully\n"
+                        },
+                        {
+                          "text": "📝 Step 1: Entering username...\n"
+                        },
+                        {
+                          "text": "✅ Username entered: administrator\n"
+                        },
+                        {
+                          "text": "📝 Step 2: Looking for next action...\n"
+                        },
+                        {
+                          "text": "Password field not visible, looking for submit button...\n"
+                        },
+                        {
+                          "text": "Found continue button, clicking...\n"
+                        },
+                        {
+                          "text": "✅ Password field is now visible\n"
+                        },
+                        {
+                          "text": "📝 Step 3: Entering password...\n"
+                        },
+                        {
+                          "text": "✅ Password entered\n"
+                        },
+                        {
+                          "text": "📝 Step 4: Submitting login form...\n"
+                        },
+                        {
+                          "text": "✅ Login form submitted\n"
+                        },
+                        {
+                          "text": "📍 Current URL after login attempt: https://taiko.mantishub.io/app/projects/0/issues\n"
+                        },
+                        {
+                          "text": "📝 Step 5: Checking for 2-step verification...\n"
+                        },
+                        {
+                          "text": "ℹ️ No 2FA field detected\n"
+                        },
+                        {
+                          "text": "📍 Final URL: https://taiko.mantishub.io/app/projects/0/issues\n"
+                        },
+                        {
+                          "text": "✅ Test completed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:14.676Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb77361a7eefd5b46527-589192f98a1d36502698",
+              "file": "taiko-2step.spec.js",
+              "line": 13,
+              "column": 7
+            },
+            {
+              "title": "TC-002: Verify dashboard access",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6005,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 2: Dashboard Verification ===\n"
+                        },
+                        {
+                          "text": "📍 Current URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "Still on login page - attempting login again\n"
+                        },
+                        {
+                          "text": "✅ Final URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "Page title: Login - MantisHub\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:21.957Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb77361a7eefd5b46527-159fe2d8eb51ac79a0c6",
+              "file": "taiko-2step.spec.js",
+              "line": 156,
+              "column": 7
+            },
+            {
+              "title": "TC-003: Session persistence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2858,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 3: Session Persistence ===\n"
+                        },
+                        {
+                          "text": "Initial URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "After reload URL: https://taiko.mantishub.io/login_page.php\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:27.978Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb77361a7eefd5b46527-ddb59c1e3b3869c8ed0c",
+              "file": "taiko-2step.spec.js",
+              "line": 194,
+              "column": 7
+            },
+            {
+              "title": "TC-004: Browser automation verification",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2946,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 4: Browser Automation Check ===\n"
+                        },
+                        {
+                          "text": "Login form found: true\n"
+                        },
+                        {
+                          "text": "Input focused successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:30.855Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb77361a7eefd5b46527-e71c21042fc851c4dec7",
+              "file": "taiko-2step.spec.js",
+              "line": 209,
+              "column": 7
+            },
+            {
+              "title": "TC-001: Login with username and password step-by-step",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8611,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 1: MantisHub Login (Step-by-Step) ===\n"
+                        },
+                        {
+                          "text": "📍 Navigating to login page...\n"
+                        },
+                        {
+                          "text": "✅ Navigated successfully\n"
+                        },
+                        {
+                          "text": "📝 Step 1: Entering username...\n"
+                        },
+                        {
+                          "text": "✅ Username entered: administrator\n"
+                        },
+                        {
+                          "text": "📝 Step 2: Looking for next action...\n"
+                        },
+                        {
+                          "text": "Password field not visible, looking for submit button...\n"
+                        },
+                        {
+                          "text": "Found continue button, clicking...\n"
+                        },
+                        {
+                          "text": "✅ Password field is now visible\n"
+                        },
+                        {
+                          "text": "📝 Step 3: Entering password...\n"
+                        },
+                        {
+                          "text": "✅ Password entered\n"
+                        },
+                        {
+                          "text": "📝 Step 4: Submitting login form...\n"
+                        },
+                        {
+                          "text": "✅ Login form submitted\n"
+                        },
+                        {
+                          "text": "📍 Current URL after login attempt: https://taiko.mantishub.io/app/\n"
+                        },
+                        {
+                          "text": "📝 Step 5: Checking for 2-step verification...\n"
+                        },
+                        {
+                          "text": "ℹ️ No 2FA field detected\n"
+                        },
+                        {
+                          "text": "📍 Final URL: https://taiko.mantishub.io/app/\n"
+                        },
+                        {
+                          "text": "✅ Test completed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:24:53.503Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb77361a7eefd5b46527-0ec9509c152e9006a9eb",
+              "file": "taiko-2step.spec.js",
+              "line": 13,
+              "column": 7
+            },
+            {
+              "title": "TC-002: Verify dashboard access",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6507,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 2: Dashboard Verification ===\n"
+                        },
+                        {
+                          "text": "📍 Current URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "Still on login page - attempting login again\n"
+                        },
+                        {
+                          "text": "✅ Final URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "Page title: Login - MantisHub\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:25:02.154Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb77361a7eefd5b46527-9419b7ba1751569bdad2",
+              "file": "taiko-2step.spec.js",
+              "line": 156,
+              "column": 7
+            },
+            {
+              "title": "TC-003: Session persistence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3561,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 3: Session Persistence ===\n"
+                        },
+                        {
+                          "text": "Initial URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "After reload URL: https://taiko.mantishub.io/login_page.php\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:25:08.689Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb77361a7eefd5b46527-5f4415dd2ed704a9ba86",
+              "file": "taiko-2step.spec.js",
+              "line": 194,
+              "column": 7
+            },
+            {
+              "title": "TC-004: Browser automation verification",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3037,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TEST 4: Browser Automation Check ===\n"
+                        },
+                        {
+                          "text": "Login form found: true\n"
+                        },
+                        {
+                          "text": "Input focused successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:25:12.274Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb77361a7eefd5b46527-a28f761abf8749a76003",
+              "file": "taiko-2step.spec.js",
+              "line": 209,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "taiko-login.spec.js",
+      "file": "taiko-login.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Taiko Login Tests - 2 Step Authentication",
+          "file": "taiko-login.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-001: Navigate to login page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2657,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Navigating to Taiko site...\n"
+                        },
+                        {
+                          "text": "Page title: Login - MantisHub\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:18:06.669Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6c52935e04cae2640714-747a8e79ced8fcee6caf",
+              "file": "taiko-login.spec.js",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "TC-002: Complete 2-step login process",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3017,
+                      "error": {
+                        "message": "Error: Password input field not found",
+                        "stack": "Error: Password input field not found\n    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js:97:13",
+                        "location": {
+                          "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js",
+                          "column": 13,
+                          "line": 97
+                        },
+                        "snippet": "\u001b[0m \u001b[90m  95 |\u001b[39m     \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mpasswordFound) {\n \u001b[90m  96 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m'Could not find password field'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  97 |\u001b[39m       \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Password input field not found'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  98 |\u001b[39m     }\n \u001b[90m  99 |\u001b[39m\n \u001b[90m 100 |\u001b[39m     \u001b[90m// STEP 3: Click login button\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js",
+                            "column": 13,
+                            "line": 97
+                          },
+                          "message": "Error: Password input field not found\n\n\u001b[0m \u001b[90m  95 |\u001b[39m     \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mpasswordFound) {\n \u001b[90m  96 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m'Could not find password field'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  97 |\u001b[39m       \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Password input field not found'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  98 |\u001b[39m     }\n \u001b[90m  99 |\u001b[39m\n \u001b[90m 100 |\u001b[39m     \u001b[90m// STEP 3: Click login button\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js:97:13\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Starting 2-step login process...\n"
+                        },
+                        {
+                          "text": "Step 1: Entering username...\n"
+                        },
+                        {
+                          "text": "Username entered via selector: input[type=\"text\"][placeholder*=\"user\" i]\n"
+                        },
+                        {
+                          "text": "Step 2: Entering password...\n"
+                        }
+                      ],
+                      "stderr": [
+                        {
+                          "text": "Could not find password field\n"
+                        }
+                      ],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:18:09.356Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-f517c-mplete-2-step-login-process-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-f517c-mplete-2-step-login-process-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-f517c-mplete-2-step-login-process-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js",
+                        "column": 13,
+                        "line": 97
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6c52935e04cae2640714-ee9f61d0ca78a07db9aa",
+              "file": "taiko-login.spec.js",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "TC-003: Verify dashboard after login",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 60656,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js",
+                            "column": 27,
+                            "line": 247
+                          },
+                          "message": "Error: locator.fill: Test timeout of 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"password\"]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 245 |\u001b[39m       \n \u001b[90m 246 |\u001b[39m       \u001b[36mconst\u001b[39m passwordField \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[type=\"password\"]'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 247 |\u001b[39m       \u001b[36mawait\u001b[39m passwordField\u001b[33m.\u001b[39mfill(\u001b[33mPASSWORD\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 248 |\u001b[39m       \n \u001b[90m 249 |\u001b[39m       \u001b[36mconst\u001b[39m loginButton \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'button[type=\"submit\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 250 |\u001b[39m       \u001b[36mawait\u001b[39m loginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js:247:27\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC-003: Verifying dashboard after login...\n"
+                        },
+                        {
+                          "text": "Current URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "Still on login page, performing login again...\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:18:19.946Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-53036-erify-dashboard-after-login-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-53036-erify-dashboard-after-login-chromium\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6c52935e04cae2640714-c45e0c19b3bb465bf1c3",
+              "file": "taiko-login.spec.js",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "TC-004: Test logout functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6037,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC-004: Testing logout...\n"
+                        },
+                        {
+                          "text": "Logout button not found, test inconclusive but passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:19:25.084Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6c52935e04cae2640714-4ffbef1033260a81b063",
+              "file": "taiko-login.spec.js",
+              "line": 258,
+              "column": 7
+            },
+            {
+              "title": "TC-001: Navigate to login page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3671,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Navigating to Taiko site...\n"
+                        },
+                        {
+                          "text": "Page title: Login - MantisHub\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:33.868Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6c52935e04cae2640714-281829310d217e6cea26",
+              "file": "taiko-login.spec.js",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "TC-002: Complete 2-step login process",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3313,
+                      "error": {
+                        "message": "Error: Password input field not found",
+                        "stack": "Error: Password input field not found\n    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js:97:13",
+                        "location": {
+                          "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js",
+                          "column": 13,
+                          "line": 97
+                        },
+                        "snippet": "\u001b[0m \u001b[90m  95 |\u001b[39m     \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mpasswordFound) {\n \u001b[90m  96 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m'Could not find password field'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  97 |\u001b[39m       \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Password input field not found'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  98 |\u001b[39m     }\n \u001b[90m  99 |\u001b[39m\n \u001b[90m 100 |\u001b[39m     \u001b[90m// STEP 3: Click login button\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js",
+                            "column": 13,
+                            "line": 97
+                          },
+                          "message": "Error: Password input field not found\n\n\u001b[0m \u001b[90m  95 |\u001b[39m     \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mpasswordFound) {\n \u001b[90m  96 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m'Could not find password field'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  97 |\u001b[39m       \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Password input field not found'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  98 |\u001b[39m     }\n \u001b[90m  99 |\u001b[39m\n \u001b[90m 100 |\u001b[39m     \u001b[90m// STEP 3: Click login button\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js:97:13\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Starting 2-step login process...\n"
+                        },
+                        {
+                          "text": "Step 1: Entering username...\n"
+                        },
+                        {
+                          "text": "Username entered via selector: input[type=\"text\"][placeholder*=\"user\" i]\n"
+                        },
+                        {
+                          "text": "Step 2: Entering password...\n"
+                        }
+                      ],
+                      "stderr": [
+                        {
+                          "text": "Could not find password field\n"
+                        }
+                      ],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:37.568Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-f517c-mplete-2-step-login-process-firefox\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-f517c-mplete-2-step-login-process-firefox\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-f517c-mplete-2-step-login-process-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js",
+                        "column": 13,
+                        "line": 97
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6c52935e04cae2640714-4ccc6535df80308b5187",
+              "file": "taiko-login.spec.js",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "TC-003: Verify dashboard after login",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 60470,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js",
+                            "column": 27,
+                            "line": 247
+                          },
+                          "message": "Error: locator.fill: Test timeout of 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"password\"]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 245 |\u001b[39m       \n \u001b[90m 246 |\u001b[39m       \u001b[36mconst\u001b[39m passwordField \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[type=\"password\"]'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 247 |\u001b[39m       \u001b[36mawait\u001b[39m passwordField\u001b[33m.\u001b[39mfill(\u001b[33mPASSWORD\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 248 |\u001b[39m       \n \u001b[90m 249 |\u001b[39m       \u001b[36mconst\u001b[39m loginButton \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'button[type=\"submit\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 250 |\u001b[39m       \u001b[36mawait\u001b[39m loginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js:247:27\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC-003: Verifying dashboard after login...\n"
+                        },
+                        {
+                          "text": "Current URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "Still on login page, performing login again...\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:21:49.729Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-53036-erify-dashboard-after-login-firefox\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-53036-erify-dashboard-after-login-firefox\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-53036-erify-dashboard-after-login-firefox\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6c52935e04cae2640714-5a6812b9f2b448a72aab",
+              "file": "taiko-login.spec.js",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "TC-004: Test logout functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8617,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC-004: Testing logout...\n"
+                        },
+                        {
+                          "text": "Logout button not found, test inconclusive but passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:22:53.985Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6c52935e04cae2640714-ce93b06fd2421ff518b0",
+              "file": "taiko-login.spec.js",
+              "line": 258,
+              "column": 7
+            },
+            {
+              "title": "TC-001: Navigate to login page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3487,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Navigating to Taiko site...\n"
+                        },
+                        {
+                          "text": "Page title: Login - MantisHub\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:25:15.347Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6c52935e04cae2640714-092d9e3b0e1568fd3247",
+              "file": "taiko-login.spec.js",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "TC-002: Complete 2-step login process",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5154,
+                      "error": {
+                        "message": "Error: Password input field not found",
+                        "stack": "Error: Password input field not found\n    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js:97:13",
+                        "location": {
+                          "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js",
+                          "column": 13,
+                          "line": 97
+                        },
+                        "snippet": "\u001b[0m \u001b[90m  95 |\u001b[39m     \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mpasswordFound) {\n \u001b[90m  96 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m'Could not find password field'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  97 |\u001b[39m       \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Password input field not found'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  98 |\u001b[39m     }\n \u001b[90m  99 |\u001b[39m\n \u001b[90m 100 |\u001b[39m     \u001b[90m// STEP 3: Click login button\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js",
+                            "column": 13,
+                            "line": 97
+                          },
+                          "message": "Error: Password input field not found\n\n\u001b[0m \u001b[90m  95 |\u001b[39m     \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mpasswordFound) {\n \u001b[90m  96 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m'Could not find password field'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  97 |\u001b[39m       \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Password input field not found'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  98 |\u001b[39m     }\n \u001b[90m  99 |\u001b[39m\n \u001b[90m 100 |\u001b[39m     \u001b[90m// STEP 3: Click login button\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js:97:13\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Starting 2-step login process...\n"
+                        },
+                        {
+                          "text": "Step 1: Entering username...\n"
+                        },
+                        {
+                          "text": "Username entered via selector: input[type=\"text\"][placeholder*=\"user\" i]\n"
+                        },
+                        {
+                          "text": "Step 2: Entering password...\n"
+                        }
+                      ],
+                      "stderr": [
+                        {
+                          "text": "Could not find password field\n"
+                        }
+                      ],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:25:18.850Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-f517c-mplete-2-step-login-process-webkit\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-f517c-mplete-2-step-login-process-webkit\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-f517c-mplete-2-step-login-process-webkit\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js",
+                        "column": 13,
+                        "line": 97
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6c52935e04cae2640714-9b6a0318a35ce3d18edf",
+              "file": "taiko-login.spec.js",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "TC-003: Verify dashboard after login",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 60480,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js",
+                            "column": 27,
+                            "line": 247
+                          },
+                          "message": "Error: locator.fill: Test timeout of 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"password\"]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 245 |\u001b[39m       \n \u001b[90m 246 |\u001b[39m       \u001b[36mconst\u001b[39m passwordField \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[type=\"password\"]'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 247 |\u001b[39m       \u001b[36mawait\u001b[39m passwordField\u001b[33m.\u001b[39mfill(\u001b[33mPASSWORD\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 248 |\u001b[39m       \n \u001b[90m 249 |\u001b[39m       \u001b[36mconst\u001b[39m loginButton \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'button[type=\"submit\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 250 |\u001b[39m       \u001b[36mawait\u001b[39m loginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-login.spec.js:247:27\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC-003: Verifying dashboard after login...\n"
+                        },
+                        {
+                          "text": "Current URL: https://taiko.mantishub.io/login_page.php\n"
+                        },
+                        {
+                          "text": "Still on login page, performing login again...\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:25:26.097Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-53036-erify-dashboard-after-login-webkit\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-53036-erify-dashboard-after-login-webkit\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-login-Taiko-Login-Te-53036-erify-dashboard-after-login-webkit\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6c52935e04cae2640714-6a699932eb2c34403b92",
+              "file": "taiko-login.spec.js",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "TC-004: Test logout functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC-004: Testing logout...\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:26:28.719Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6c52935e04cae2640714-1bb8a580529805f6da83",
+              "file": "taiko-login.spec.js",
+              "line": 258,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "taiko-simplified.spec.js",
+      "file": "taiko-simplified.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Taiko Login - Simplified Test Suite",
+          "file": "taiko-simplified.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test 1: Site Accessibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2275,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔍 Testing site accessibility...\n"
+                        },
+                        {
+                          "text": "✅ Site loaded successfully\n"
+                        },
+                        {
+                          "text": "Page title: Login - MantisHub\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:19:31.328Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-95d89c265992d1aafc16",
+              "file": "taiko-simplified.spec.js",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "Test 2: Login Form Detection",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 2767,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-simplified.spec.js:44:30",
+                        "location": {
+                          "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-simplified.spec.js",
+                          "column": 30,
+                          "line": 44
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 42 |\u001b[39m\n \u001b[90m 43 |\u001b[39m     \u001b[36mconst\u001b[39m hasPasswordField \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[type=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mcount() \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 |\u001b[39m     expect(hasPasswordField)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 45 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 46 |\u001b[39m\n \u001b[90m 47 |\u001b[39m   test(\u001b[32m'Test 3: Login Credentials Entry'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-simplified.spec.js",
+                            "column": 30,
+                            "line": 44
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 42 |\u001b[39m\n \u001b[90m 43 |\u001b[39m     \u001b[36mconst\u001b[39m hasPasswordField \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[type=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mcount() \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 |\u001b[39m     expect(hasPasswordField)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 45 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 46 |\u001b[39m\n \u001b[90m 47 |\u001b[39m   test(\u001b[32m'Test 3: Login Credentials Entry'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-simplified.spec.js:44:30\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "🔍 Looking for login form...\n"
+                        },
+                        {
+                          "text": "Found 3 input fields\n"
+                        },
+                        {
+                          "text": "  Input 1: type=hidden, name=return, placeholder=null\n"
+                        },
+                        {
+                          "text": "  Input 2: type=text, name=username, placeholder=Username or email address\n"
+                        },
+                        {
+                          "text": "  Input 3: type=submit, name=null, placeholder=null\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:19:33.633Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-simplified-Taiko-Log-199ba-Test-2-Login-Form-Detection-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-simplified-Taiko-Log-199ba-Test-2-Login-Form-Detection-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-simplified-Taiko-Log-199ba-Test-2-Login-Form-Detection-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-simplified.spec.js",
+                        "column": 30,
+                        "line": 44
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-f76ea5c7636dc86f6ea4",
+              "file": "taiko-simplified.spec.js",
+              "line": 26,
+              "column": 7
+            },
+            {
+              "title": "Test 3: Login Credentials Entry",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2769,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔍 Testing login flow...\n"
+                        },
+                        {
+                          "text": "Found username input\n"
+                        },
+                        {
+                          "text": "✅ Username entered: administrator\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:19:46.033Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-2a9482d587e348a61799",
+              "file": "taiko-simplified.spec.js",
+              "line": 47,
+              "column": 7
+            },
+            {
+              "title": "Test 4: 2FA Field Detection",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2782,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔍 Looking for 2FA/OTP fields...\n"
+                        },
+                        {
+                          "text": "Found 1 text input fields\n"
+                        },
+                        {
+                          "text": "ℹ️ No 2FA fields detected on initial page (may appear after login)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:19:48.994Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-71ce34f3fa96917436b0",
+              "file": "taiko-simplified.spec.js",
+              "line": 77,
+              "column": 7
+            },
+            {
+              "title": "Test 5: Full Login Sequence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3010,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔍 Starting full login sequence...\n"
+                        },
+                        {
+                          "text": "Step 1: Filling username...\n"
+                        },
+                        {
+                          "text": "✅ Username filled\n"
+                        },
+                        {
+                          "text": "Step 2: Filling password...\n"
+                        },
+                        {
+                          "text": "Step 3: Clicking login button...\n"
+                        }
+                      ],
+                      "stderr": [
+                        {
+                          "text": "⚠️ Password field not found\n"
+                        },
+                        {
+                          "text": "⚠️ Submit button not found\n"
+                        }
+                      ],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:19:51.816Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-341cd1468c245520f34a",
+              "file": "taiko-simplified.spec.js",
+              "line": 111,
+              "column": 7
+            },
+            {
+              "title": "Test 1: Site Accessibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2880,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔍 Testing site accessibility...\n"
+                        },
+                        {
+                          "text": "✅ Site loaded successfully\n"
+                        },
+                        {
+                          "text": "Page title: Login - MantisHub\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:23:04.477Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-9a1e8f6bef6232734383",
+              "file": "taiko-simplified.spec.js",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "Test 2: Login Form Detection",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3756,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-simplified.spec.js:44:30",
+                        "location": {
+                          "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-simplified.spec.js",
+                          "column": 30,
+                          "line": 44
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 42 |\u001b[39m\n \u001b[90m 43 |\u001b[39m     \u001b[36mconst\u001b[39m hasPasswordField \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[type=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mcount() \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 |\u001b[39m     expect(hasPasswordField)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 45 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 46 |\u001b[39m\n \u001b[90m 47 |\u001b[39m   test(\u001b[32m'Test 3: Login Credentials Entry'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-simplified.spec.js",
+                            "column": 30,
+                            "line": 44
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 42 |\u001b[39m\n \u001b[90m 43 |\u001b[39m     \u001b[36mconst\u001b[39m hasPasswordField \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[type=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mcount() \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 |\u001b[39m     expect(hasPasswordField)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 45 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 46 |\u001b[39m\n \u001b[90m 47 |\u001b[39m   test(\u001b[32m'Test 3: Login Credentials Entry'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-simplified.spec.js:44:30\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "🔍 Looking for login form...\n"
+                        },
+                        {
+                          "text": "Found 3 input fields\n"
+                        },
+                        {
+                          "text": "  Input 1: type=hidden, name=return, placeholder=null\n"
+                        },
+                        {
+                          "text": "  Input 2: type=text, name=username, placeholder=Username or email address\n"
+                        },
+                        {
+                          "text": "  Input 3: type=submit, name=null, placeholder=null\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:23:07.402Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-simplified-Taiko-Log-199ba-Test-2-Login-Form-Detection-firefox\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-simplified-Taiko-Log-199ba-Test-2-Login-Form-Detection-firefox\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\test-results\\taiko-simplified-Taiko-Log-199ba-Test-2-Login-Form-Detection-firefox\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\mihne\\Documents\\Scuola\\test-with-ai\\tests\\taiko-simplified.spec.js",
+                        "column": 30,
+                        "line": 44
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-322360ed3ff4dc2bc2d2",
+              "file": "taiko-simplified.spec.js",
+              "line": 26,
+              "column": 7
+            },
+            {
+              "title": "Test 3: Login Credentials Entry",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5377,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔍 Testing login flow...\n"
+                        },
+                        {
+                          "text": "Found username input\n"
+                        },
+                        {
+                          "text": "✅ Username entered: administrator\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:23:14.546Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-0daa77e6a09544522e18",
+              "file": "taiko-simplified.spec.js",
+              "line": 47,
+              "column": 7
+            },
+            {
+              "title": "Test 4: 2FA Field Detection",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3227,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔍 Looking for 2FA/OTP fields...\n"
+                        },
+                        {
+                          "text": "Found 1 text input fields\n"
+                        },
+                        {
+                          "text": "ℹ️ No 2FA fields detected on initial page (may appear after login)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:23:20.910Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-0356ac956e42cb7b452f",
+              "file": "taiko-simplified.spec.js",
+              "line": 77,
+              "column": 7
+            },
+            {
+              "title": "Test 5: Full Login Sequence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3476,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔍 Starting full login sequence...\n"
+                        },
+                        {
+                          "text": "Step 1: Filling username...\n"
+                        },
+                        {
+                          "text": "✅ Username filled\n"
+                        },
+                        {
+                          "text": "Step 2: Filling password...\n"
+                        },
+                        {
+                          "text": "Step 3: Clicking login button...\n"
+                        }
+                      ],
+                      "stderr": [
+                        {
+                          "text": "⚠️ Password field not found\n"
+                        },
+                        {
+                          "text": "⚠️ Submit button not found\n"
+                        }
+                      ],
+                      "retry": 0,
+                      "startTime": "2026-02-06T08:23:24.167Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-c15f1182e6ed25f720cf",
+              "file": "taiko-simplified.spec.js",
+              "line": 111,
+              "column": 7
+            },
+            {
+              "title": "Test 1: Site Accessibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-4743a1be6a7bf9d5ac9e",
+              "file": "taiko-simplified.spec.js",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "Test 2: Login Form Detection",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-919cda96899c5b2fa6fd",
+              "file": "taiko-simplified.spec.js",
+              "line": 26,
+              "column": 7
+            },
+            {
+              "title": "Test 3: Login Credentials Entry",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-447e86559c0c12de7cea",
+              "file": "taiko-simplified.spec.js",
+              "line": 47,
+              "column": 7
+            },
+            {
+              "title": "Test 4: 2FA Field Detection",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-f03aaea114dc162c7f6b",
+              "file": "taiko-simplified.spec.js",
+              "line": 77,
+              "column": 7
+            },
+            {
+              "title": "Test 5: Full Login Sequence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "81cc65e5c71e9a61087f-741192419dcc38a3767b",
+              "file": "taiko-simplified.spec.js",
+              "line": 111,
+              "column": 7
+            }
+          ]
+        }
+      ]
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "message": "\u001b[31mTimed out waiting 600s for the test suite to run\u001b[39m"
+    },
+    {
+      "message": "\u001b[31mTimed out waiting 600s for the teardown for test suite to run\u001b[39m"
+    }
+  ],
   "stats": {
-    "startTime": "2026-02-06T08:21:26.663Z",
-    "duration": 177150.457,
-    "expected": 16,
-    "skipped": 0,
-    "unexpected": 2,
+    "startTime": "2026-02-06T08:16:31.199Z",
+    "duration": 600017.377,
+    "expected": 52,
+    "skipped": 6,
+    "unexpected": 11,
     "flaky": 0
   }
 }
